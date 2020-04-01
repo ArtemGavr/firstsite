@@ -1,0 +1,192 @@
+body {
+  margin: 0 0 1em 0;
+  padding: 0;
+  color: black;
+  background-color: aquamarine;
+  line-height: 130%;
+  font-family: arial, helvetica, verdana, tahoma, sans-serif;
+  text-align: center;
+}
+
+
+
+#content {
+  width: 73%; /* 73% because it has 1% padding on each side, which brings it to 75% wide */
+  margin: 0 auto;
+  padding: 3.5em 1% 20px 1%;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  background: white;
+  font-size: 90%;
+  text-align: left;
+}
+
+* html #content {
+  padding-top: 1.8em;
+} /* Set padding top in IE to 20px */
+
+
+h1 {
+  color: #666;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #a0c80e;
+  font-size: 250%;
+  letter-spacing: -0.1em;
+}
+
+h4 {
+  color: #666;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #a0c80e;
+  font-size: 100%;
+  letter-spacing: -0.1em;
+}
+
+a:link,
+a:visited {
+  color: #260;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+.tftable {
+  font-size: 12px;
+  color: #333333;
+  width: 100%;
+  border-width: 1px;
+  border-color: #9dcc7a;
+  border-collapse: collapse;
+}
+.tftable th {
+  font-size: 12px;
+  background-color: #abd28e;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #9dcc7a;
+  text-align: center;
+}
+.tftable tr {
+  background-color: #ffffff;
+}
+.tftable td {
+  font-size: 12px;
+  text-align: center;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #9dcc7a;
+}
+.tftable tr:hover {
+  background-color: #ffff99;
+  background-repeat: repeat;
+}
+
+
+
+.video{
+  margin: 0 auto;
+  border: 0px outset #ddd;
+}
+
+
+.navigation {
+  float: right;
+  display: block;
+  
+}
+.navigation ul
+ {
+  list-style: none outside none;
+  
+}
+.navigation ul li {
+  float: left;
+  display: block;
+  padding-right: 7px;
+  
+  
+}
+.navigation ul li a,
+.navigation ul li a span {
+  float: left;
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  color: #4c4c4c;
+  line-height: 50px;
+  padding-left: 15px;
+  text-align: left;
+}
+.navigation ul li a span {
+  padding: 0 15px 0 0;
+}
+.navigation ul li a:hover,
+.navigation ul li a.active,
+.navigation ul li a:hover span,
+.navigation ul li a.active span {
+  color: green;
+}
+
+
+
+.navigationleft {
+  float: right;
+  display: block;
+  background-image: url("image/dotted.jpg");
+}
+.navigationleft ul
+ {
+  list-style: none outside none;
+  
+}
+.navigationleft ul li {
+  float: left;
+  display: block;
+  padding-right: 7px;
+  background-color: rgba(255, 255, 255, 0.582);
+}
+.navigationleft ul li a,
+.navigationleft ul li a span {
+  float: left;
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  color: #4c4c4c;
+  line-height: 50px;
+  padding-left: 15px;
+  text-align: left;
+}
+.navigationleft ul li a span {
+  padding: 0 15px 0 0;
+}
+.navigationleft ul li a:hover,
+.navigationleft ul li a.active,
+.navigationleft ul li a:hover span,
+.navigationleft ul li a.active span {
+  color: green;
+}
+
+
+#footer {
+  margin: 0 auto;
+  padding: 2px 1%;
+  width: 73%;
+  text-align: right;
+  color: white;
+  letter-spacing: 0.15em;
+  background: #8fb40c url("images/menu-background.png") top left repeat-x;
+  border: 1px solid #a0c80e;
+  font-size: 80%;
+}
+
+#pink {
+  color: rgb(238, 97, 121);
+}
