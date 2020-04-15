@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=l, initial-scale=1.0">
+    <meta name="description" content="Laboratory work #2" />
+    <meta name="keywords" content="Laboratory,work,second" />
+    <title>Lab Two</title>
+    <link rel="shortcut icon" type="image/x-icon" href="css/image/ag.jpg" />
+    <link href="css/styleforlab2.css" rel="stylesheet">
+    <script src="scripts/scriptforlab2.js"></script>
+    <h1> Second laboratory work</h1>
+</head>
+
+<body>
+    
+
+    <section  name="task1">
+        <p>Its a sample test!</p>
+        	
+            <form name="testingform"> 
+            <h4>1. Что такое DOM? </h4><br>
+            <input type="radio" name="q1" value="a"><span id="correct1"> Document object moddel </span><br>
+            <input type="radio" name="q1" value="b"><span> Место где живут </span><br>
+            <input type="radio" name="q1" value="c"><span > Deutche Open mark </span><br>
+            <hr>
+            <h4>2. Згідно DOM-моделі, документ є...</h4><br>
+            <input type="radio" name="q2" value="a"><span id="correct2"> Ієрархією </span><br>
+            <input type="radio" name="q2" value="b"><span> Послідовністю </span><br>
+            <input type="radio" name="q2" value="c"><span> Масивом</span><br>
+            <hr>
+            <h4>3.Який об'єкт є глоюальним в Джава Скрипт?</h4><br>
+            <input type="radio" name="q3" value="a"><span id="correct3"> window</span><br>
+            <input type="radio" name="q3" value="b"><span> browser.</span><br>
+            <input type="radio" name="q3" value="c"><span>  chair</span><br>
+            <hr>
+            <h4>4. Особливості метода : </h4><br>
+            <input type="checkbox" id="q41" value="a"><span id="correct41"> Обмеження на обсяг 4 кб</span><br>
+            <input type="checkbox" id="q42" value="b"><span id="correct42"> Переданні данні видно відразу</span><br>
+            <input type="checkbox" id="q43" value="c"><span> Обмеження на обсяг задаються сервером</span><br>
+            <input type="checkbox" id="q44" value="d"><span> Переданні данні видно тільки при перегляді через розширення браузера</span><br>
+            <br>
+            
+            <input class="scorebutton" type="button" onclick="Check()" value="Evaluate scores" ><br>
+            <br>
+            <label id="score"></label>
+           
+            </form>
+    </section>
+
+<br>
+
+<section name="task2">
+<h1> Task 2!!!!!</h1>
+<h4> What time is it ?!??!</h4>
+<h6>it is </h6>
+<p id="clock"></p>
+</section>
+<br>
+
+<section name="task3">
+<h1> Task 3!!!!!</h1>
+<h4> Tell me about your favourite day</h4>
+<form onSubmit="return DateCheck();">
+
+<input type="date" id="datainput" onfocus="visibility()" name="favouriteday">
+<div id="block111" style="display: none">
+<p>OR</p>
+<p id="daytext">day <input  id="day" pattern="[0-9]{2}" title="Day" ></p>
+<p id="monthtext">month <input  id="month" pattern="[0-9]{2}" title="Month"></p>
+<p id="yeartext">year <input  id="year" pattern="[0-9]{4}" title="Year"></p>
+
+</div>
+<input class="scorebutton" type="submit" value="Check date">
+</form>
+</section>
+
+</body>
+</html>
